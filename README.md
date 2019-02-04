@@ -3,9 +3,33 @@
 ### Introduction
 This data set includes information about individual rides made in a bike-sharing system covering the San Francisco Bay area.
 
-Note that this dataset will require some data wrangling in order to make it tidy for analysis. There are multiple cities covered by the linked system, and multiple data files will need to be joined together if a full year’s coverage is desired.
+There are multiple cities covered by the linked system, and multiple data files will need to be joined together if a full year’s coverage is desired.
+Some of the questions that would be good to answer are:
+1. When are most trips taken in terms of time of day, day of the week, or month of the year?
+2. How long does the average trip take?
+3. Does the above depend on if a user is a subscriber or customer?
 
-  * Files needed
+The Data Structure are as follows:
+Each trip is anonymized and includes:
+
+ * Trip Duration (seconds)
+ * Start Time and Date
+ * End Time and Date
+ * Start Station ID
+ * Start Station Name
+ * Start Station Latitude
+ * Start Station Longitude
+ * End Station ID
+ * End Station Name
+ * End Station Latitude
+ * End Station Longitude
+ * Bike ID
+ * User Type (Subscriber or Customer – “Subscriber” = Member or “Customer” = Casual)
+ * Member Year of Birth
+ * Member Gender
+
+
+* Files needed
 
   * A readme document in plain text (txt), Markdown (md), or PDF form. This document should note the dataset you chose and its source, if it wasn’t part of the Dataset options. It should also report the main findings from your exploratory data analysis and how you chose the plots to put in your explanatory report. If you obtained feedback from others to help your explanatory designs, you should also document that feedback here.
   * A report with your exploratory data analysis. If you use a Jupyter Notebook to conduct your analysis, you should include both the original .ipynb file as well as an html export of the finished notebook.
