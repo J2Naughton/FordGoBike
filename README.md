@@ -28,4 +28,5 @@ Each trip is anonymized and includes:
  * Member Year of Birth
  * Member Gender
 
-
+This project is divided into 2. The first part in FordGoBikePart1.ipynb which deals with july 2017 through Jan 2018 
+and the second part is FordGoBikePart2.ipynb which deals with data from the year 2018.
